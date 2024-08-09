@@ -7,7 +7,7 @@ let op = prompt(
 ).toUpperCase();
 
 // Funciones------------
-function conIntereses(monto, plazo, tasaAnual) {
+function conIntereses(monto, tasaAnual) {
   let tasaMensual = tasaAnual / 12;
   let termino4 = Math.pow(1 + tasaMensual, -6);
   let denominador = 1 - termino4;
