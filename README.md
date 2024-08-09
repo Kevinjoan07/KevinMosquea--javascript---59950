@@ -1,5 +1,5 @@
-# Primera entraga de proyecto Final Curso JavaScript
+# Segunda entraga de proyecto Final Curso JavaScript
 
-## Programa para calcular pagos en cuotas sobre un monto determinado
-El programa calcula  el valor de las cuotas mensuales de un prestamo  con interes o sin interes a 6,12 ,24 y 36 meses
+## Programa para crear una Lista de tareas
+El programa permite al usuario agregar tareas, cambiar el estado de las tareas y eliminar las tareas 
 
