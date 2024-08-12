@@ -158,4 +158,3 @@ do {
   );
 } while (op != 0);
 
-// actualizar estado de la tarea: Permitir al usuario marcar tareas como  Activo,vencidos , completadas.
