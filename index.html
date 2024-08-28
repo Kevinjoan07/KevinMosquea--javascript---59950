@@ -1,12 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LIsta de Tareas</title>
-</head>
-<body>
-    <H1>Preentrega 2</H1>
-    <script src="Entrega2.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lista de Tareas</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Lista de Tareas</h1>
+
+    <div class="miFormulario">
+      <form id="taskForm">
+        <input
+          type="text"
+          id="taskName"
+          placeholder="Nombre de la tarea"
+          required
+        />
+        <input
+          type="text"
+          id="taskDescription"
+          placeholder="Descripción de la tarea"
+          required
+        />
+        <button type="submit">Agregar Tarea</button>
+      </form>
+    </div>
+
+    <ul id="taskList"></ul>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script src="index.js"></script>
+  </body>
 </html>

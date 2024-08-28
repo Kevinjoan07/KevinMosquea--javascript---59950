@@ -1,0 +1,11 @@
+{
+  "name": "kevinmosquea--javascript---59950",
+  "version": "1.0.0",
+  "description": "El programa permite al usuario agregar tareas, cambiar el estado de las tareas, visualizar las tareas en la lista  y eliminar las tareas",
+  "main": "Entrega2.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

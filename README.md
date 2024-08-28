@@ -1,5 +1,5 @@
-# Tercera entraga de proyecto Final Curso JavaScript
+# Tercera entrega de proyecto Final Curso JavaScript
 
 ## Programa para crear una Lista de tareas
-El programa permite al usuario agregar tareas, cambiar el estado de las tareas, visualizar las tareas en la lista  y eliminar las tareas 
+El programa permite al usuario agregar tareas,Modificar el nombre  y/o Descripcion de las tareas, visualizar las tareas activas en la lista  y eliminar las tareas 
 
