@@ -11,6 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       // Crear un nuevo elemento de lista
       const taskItem = document.createElement('li');
+      taskItem.className='resultado'
       taskItem.textContent = `${taskName}: ${taskDescription} `;
 
       // Crear botón de eliminar

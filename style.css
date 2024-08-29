@@ -12,11 +12,10 @@ body {
   text-align: center;
 }
 
-.miFormulario {
-  flex-direction: row-reverse;
-  background-color: #5ec5e4;
-  align-items: space-around;
+main {
+  margin-top: 90px;
 }
+
 .miFormulario form {
   margin: 0 auto;
   gap: 30px;
@@ -35,7 +34,7 @@ body {
   height: 50px;
   border: none;
   border-radius: 10px;
-  background-color: #db7d32;
+  background-color: #3587a4;
   color: white;
   font-size: 20px;
   margin-top: 20px;
@@ -43,6 +42,31 @@ body {
 .miFormulario button:hover {
   background-color: white;
   color: #db7d32;
+}
+
+.resultado {
+  display: flex;
+  flex-direction: row;
+  color: rgba(179, 54, 196, 0.8470588235);
+  margin: 45px;
+  gap: 15px;
+  font-weight: 900;
+  align-items: center;
+}
+.resultado li {
+  width: 300px;
+  height: 38px;
+  border: none;
+  border-radius: 10px;
+  margin: 15px;
+}
+.resultado button {
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: #3587a4;
+  color: white;
+  font-size: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
